@@ -1,0 +1,89 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+}
+
+#header {
+    text-align: center;
+    padding: 60px 0;
+}
+#header a {
+    font-size: 40px;
+}
+
+#nav ul.menus {
+    float: left;
+}
+#nav ul.icons {
+    float: right;
+}
+#main .featured header h2 {
+    text-align: center;
+    padding: 50px 40px 0;
+}
+#main .featured header a img {
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+}
+#footer .contact, #footer .info {
+    flex: 1;
+}
+#footer .contact .inputs {
+}
+#footer .contact .inputs label {}
+#footer .contact .inputs input {
+    /* 중요 */
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    border: solid 3px grey;
+    /* #000000 // RGB
+    #000
+    color keyword
+    rgb(0,0,0)
+    rgba(0,0,0,0) */
+    margin-bottom: 30px;
+}
+#footer .contact .inputs textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 3px grey;
+    margin-bottom: 30px;
+}
+#footer .contact .submit input {
+    border: solid 3px #333;
+    background-color: rgb(255,255,255);
+    padding: 15px 10px;
+}
+#footer .info section {
+    display: flex;
+}
+#footer .info section h3 {
+    flex: 1;
+}
+#footer .info section p {
+    flex: 2;
+}
+#footer .info section ul {
+    flex: 2;
+}
+#copyright {
+    background-color: rgb(33,33,33); /* #333333; #333 */
+    padding: 20px;
+    text-align: center;
+}
+#copyright p {
+    color: #CCCCCC;
+}
+
