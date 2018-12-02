@@ -1,0 +1,10 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Slider Style */
+#wrapper {
+    text-align: center;
+}
