@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#wrapper {
+    max-width: 450px;
+    margin: 150px auto;
+    height: 100vh;
+}
+.login_area {
+    border: solid 1px #ececec;
+    border-radius: 10px;
+    padding: 40px;   
+}
+.login_area header {
+    text-align: center;
+}
+.login_area header img {
+    width: 100px;
+}
+.login_area header h2 {
+    font-weight: normal;
+}
+.login_area section {
+    padding-top: 40px;
+}
+.login_area section input {
+    width: 100%;
+    font-size: 1.5em;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;  
+}
+.login_area section a {
+    /* padding-top: 30px; */
+}
+.login_area section p {
+    padding-top: 50px;
+}
+.login_area footer {
+    padding-top: 20px;
+}
+.login_area footer a.btn {
+    /* display: block; */
+    float: right;
+    background-color: rgb(26, 115, 232);
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+#footer {
+    display: flex;
+}
+#footer .left {
+    flex: 1;
+}
+#footer .right {
+    flex: 2;
+}
+#footer .left select {
+    border: 0;
+}
+#footer .right ul {
+    display: flex; 
+}
+#footer .right ul li {
+    flex: 1;
+    text-align: right;
+}
+#footer .right ul li a {
+    font-size: .8em;
+}
+
+

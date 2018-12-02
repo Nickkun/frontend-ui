@@ -1,0 +1,130 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(26,115,232);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+    flex: 1 1 auto;
+}
+.login_area {
+    padding: 40px;
+    border: solid 1px #cecece;
+    border-radius: 5px;
+    box-shadow: 0 3px #c4c4c4;
+}
+.login_area #header {
+    text-align: center;
+}
+.login_area #header .logo {
+    max-width: 90px;
+}
+.login_area #header h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.login_area #header p {
+    padding-top: 10px;
+}
+.login_area .login_form {
+    padding-top: 70px;
+}
+.login_area .login_form input {
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 1px #cecece;
+    font-size: 1.3em;
+    margin-bottom: 25px;
+    padding-bottom:10px;
+}
+.login_area .login_form .find_email {
+    padding-top: 25px;
+}
+.login_area .login_form .secret_login {
+    padding-top: 50px;
+}
+.login_area .login_form .next {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    align-items: center;
+}
+.login_area .login_form .next div {
+    flex: 1;
+}
+.login_area .login_form .next div .btn {
+    border-radius: 3px;
+    background-color: rgb(26,115,232);
+    color: #ffffff;
+    width: 90px;
+    display: block;
+    text-align: center;
+    float: right;
+    padding: 10px 0;
+}
+
+#footer {
+    padding-top: 20px;
+    display: flex;
+    font-size: .8em;
+}
+#footer a {
+    color: #b4b4b4;
+}
+#footer .left, #footer .right {
+    flex: 1 1 auto;
+}
+#footer .left {
+    position: relative;
+}
+#footer .left select {
+    border: 0;    
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;
+}
+#footer .left i {
+    position: absolute;
+    top: 2px;
+}
+#footer .right ul {
+    display: flex;
+}
+#footer .right ul li {
+    flex: 1 1 auto;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        align-items: flex-start;
+    }
+    .wrapper {
+        max-width: 100%;
+        padding: 50px;
+    }
+    .login_area {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+    #footer {
+        display: none;
+    }
+}

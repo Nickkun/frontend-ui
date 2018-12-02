@@ -1,0 +1,77 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {    
+    list-style: none;
+}
+
+#first ul {
+    float: right;
+}
+#first ul li {
+    display: inline-block;
+    padding: 0 5px;
+    /* width: 50px;
+    text-align: center; */
+}
+#first ul li.lable {
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+#first ul li.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#second {
+    padding-top: 150px;
+    text-align: center;
+}
+
+#third {
+    text-align: center;
+    position:relative;
+    width: 500px;
+    margin: 0 auto;
+}
+#third input{
+    width: 500px;
+    height: 30px;
+    margin-top: 30px;
+    border: #dddddd 1px solid;
+    border-bottom: #999999 solid 1px;
+    box-shadow: 0 1px #cccccc;
+}
+#third ul {
+    position: absolute;
+    top: 36px;
+    right: 10px;
+}
+
+#third ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+#fourth {
+    text-align: center;
+    padding-top: 30px;
+}
+#fourth button {
+    border: 0;
+    border-radius: 3px;
+    background-color: #dddddd;
+    color: #666666;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+}
+#fifth {
+    position: fixed;
+    bottom: 0;
+}

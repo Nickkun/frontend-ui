@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    
     // Inteval Control 을 위한 변수
     let sliding;
     
