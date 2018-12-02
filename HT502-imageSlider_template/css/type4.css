@@ -1,0 +1,49 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Slider Style */
+#wrapper {
+    text-align: center;
+}
+#slider {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+#slider ul {
+    position: relative;
+    list-style: none;
+}
+#slider ul .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#slider ul .item img {
+    max-width: 50rem;
+    width: 100%;
+}
+
+/* slider control panel */
+#slider .control {
+    position: relative;
+    height: 100%;
+}
+#slider .control a {
+    position: absolute;
+    width: 5rem;
+    color: rgba(255,255,255,.7);
+    transition: all .3s ease-in-out;
+}
+#slider .control .left {
+    left: 0;
+    padding-left: 1rem;
+    text-align: left;
+}
+#slider .control .right {
+    right: 0;
+    padding-right: 1rem;
+    text-align: right;
+}

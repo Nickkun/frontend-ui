@@ -1,0 +1,27 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Slider Style */
+#wrapper {
+    text-align: center;
+}
+#slider {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+#slider ul {
+    position: relative;
+    list-style: none;
+}
+#slider ul .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#slider ul .item img {
+    max-width: 50rem;
+    width: 100%;
+}
